@@ -17,7 +17,7 @@ You can return the answer in any order.
 **Example 2:**
 
 > **Input:** nums = [3,2,4], target = 6 \
-> **Output:** [1,2] \
+> **Output:** [1,2] 
 
 **Example 3:**
 
@@ -45,10 +45,11 @@ Constraints:
 
 > ### Memory
 > **48.57** MB | Beats **75.71%**
+
 ```csharp
-public static class Solution 
+public class Solution 
 {
-    public static int[] TwoSum(int[] nums, int target) 
+    public int[] TwoSum(int[] nums, int target) 
     {
         for (var i = 0; i < nums.Length - 1; i++)
         {
@@ -58,6 +59,40 @@ public static class Solution
                 {
                     return [i, j];
                 }
+            }
+        }
+        
+        throw new ArgumentException("No such two sum");
+    }
+}
+```
+
+## Solution 2:
+> ### Runtime
+> **2** ms | beats *60.44%**
+
+> ### Memory
+> **49.82** MB | Beats **6.43%**
+
+```csharp
+public class Solution2
+{
+    public int[] TwoSum(int[] nums, int target)
+    {
+        var dictionary = new Dictionary<int, int>();
+        
+        for (int i = 0; i < nums.Length; i++) 
+        {
+            dictionary[nums[i]] = i;
+        }
+        
+        for (var i = 0; i < nums.Length; i++)
+        {
+            var complement = target - nums[i];
+            
+            if (dictionary.ContainsKey(complement) && dictionary[complement] != i)
+            {
+                return [i, dictionary[complement]];
             }
         }
         

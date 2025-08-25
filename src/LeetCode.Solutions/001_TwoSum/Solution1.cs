@@ -1,8 +1,8 @@
 ﻿namespace LeetCode.Solutions._001_TwoSum;
 
-public static class Solution 
+public class Solution1 
 {
-    public static int[] TwoSum(int[] nums, int target) 
+    public int[] TwoSum(int[] nums, int target) 
     {
         for (var i = 0; i < nums.Length - 1; i++)
         {

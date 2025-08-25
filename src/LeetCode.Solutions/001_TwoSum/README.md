@@ -39,7 +39,12 @@ Constraints:
 
 # Solutions:
 
-## Solution 1 - O(n^2):
+## Solution 1:
+> ### Runtime
+> **29** ms | beats **47.01%** 
+
+> ### Memory
+> **48.57** MB | Beats **75.71%**
 ```csharp
 public static class Solution 
 {

@@ -1,6 +1,9 @@
 ﻿# 0. Template
 
-***Easy***
+![Easy](https://img.shields.io/badge/-Easy-00af9b?style=flat)
+![Medium](https://img.shields.io/badge/-Medium-ffb800?style=flat)
+![Hard](https://img.shields.io/badge/-Hard-ff2d55?style=flat)
+
 
 This is the **_template_**.
 The function gets `x` and returns `x - 1`.

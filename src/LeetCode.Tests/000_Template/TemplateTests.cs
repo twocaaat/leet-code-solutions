@@ -4,12 +4,11 @@ namespace LeetCode.Tests._000_Template;
 
 public class TestTests 
 {
-    [Fact]
-    public void CallSolution_ReturnValidAnswer()
+    [Theory]
+    [InlineData(10, 9)]
+    public void Solution_Test(int input, int expectedOutput)
     {
         // arrange
-        var input = 10;
-        var expectedOutput = 9; // 10 - 1 = 9
         var solution = new Solution();
         
         // act

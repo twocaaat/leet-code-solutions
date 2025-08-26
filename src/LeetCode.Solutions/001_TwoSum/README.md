@@ -1,6 +1,6 @@
 ﻿# 1. Two Sum
 
-***Easy***
+![Easy](https://img.shields.io/badge/-Easy-00af9b?style=flat)
 
 Given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`.*
 

@@ -1,6 +1,6 @@
-﻿using LeetCode.Solutions._000_Test;
+﻿using LeetCode.Solutions._000_Template;
 
-namespace LeetCode.Tests._000_Test;
+namespace LeetCode.Tests._000_Template;
 
 public class TestTests 
 {
@@ -10,9 +10,10 @@ public class TestTests
         // arrange
         var input = 10;
         var expectedOutput = 9; // 10 - 1 = 9
+        var solution = new Solution();
         
         // act
-        var output = Solution.MinusOne(input);
+        var output = solution.Template(input);
 
         // assert
         Assert.Equal(expectedOutput, output);

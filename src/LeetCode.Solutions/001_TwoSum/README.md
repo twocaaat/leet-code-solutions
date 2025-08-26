@@ -27,9 +27,9 @@ You can return the answer in any order.
 
 Constraints:
 
-* `2 <= nums.length <= 104`
-* `-109 <= nums[i] <= 109`
-* `-109 <= target <= 109`
+* `2 <= nums.length <= 10^4`
+* `-10^9 <= nums[i] <= 10^9`
+* `-10^9 <= target <= 10^9`
 * **Only one valid answer exists.**
 
 
@@ -41,7 +41,7 @@ Constraints:
 
 ## Solution 1:
 > ### Runtime
-> **29** ms | beats **47.01%** 
+> **29** ms | Beats **47.01%** 
 
 > ### Memory
 > **48.57** MB | Beats **75.71%**
@@ -69,13 +69,13 @@ public class Solution
 
 ## Solution 2:
 > ### Runtime
-> **2** ms | beats *60.44%**
+> **2** ms | Beats **60.44%**
 
 > ### Memory
 > **49.82** MB | Beats **6.43%**
 
 ```csharp
-public class Solution2
+public class Solution
 {
     public int[] TwoSum(int[] nums, int target)
     {

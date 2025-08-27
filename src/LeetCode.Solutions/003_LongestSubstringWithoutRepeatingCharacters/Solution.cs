@@ -1,5 +1,6 @@
 ﻿namespace LeetCode.Solutions._003_LongestSubstringWithoutRepeatingCharacters;
 
+// TODO: Improve speed
 public class Solution {
     public int LengthOfLongestSubstring(string s)
     {

@@ -40,6 +40,7 @@ Constraints:
 # Solutions:
 
 ## Solution 1:
+[Here is submission](https://leetcode.com/problems/two-sum/submissions/1750213224)
 > ### Runtime
 > **29** ms | Beats **47.01%** 
 
@@ -68,18 +69,19 @@ public class Solution
 ```
 
 ## Solution 2:
+[Here is submission](https://leetcode.com/problems/two-sum/submissions/1750213224)
 > ### Runtime
-> **2** ms | Beats **60.44%**
+> **1** ms | Beats **98.92%**
 
 > ### Memory
-> **49.82** MB | Beats **6.43%**
+> **48.99** MB | Beats **43.97%**
 
 ```csharp
 public class Solution
 {
     public int[] TwoSum(int[] nums, int target)
     {
-        var dictionary = new Dictionary<int, int>();
+        var dictionary = new Dictionary<int, int>(nums.Length);
         
         for (int i = 0; i < nums.Length; i++) 
         {

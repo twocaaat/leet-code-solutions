@@ -32,11 +32,12 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 # Solutions:
 ## Solution 1:
+[Here is submission](https://leetcode.com/problems/add-two-numbers/submissions/1749113981)
 > ### Runtime
-> **1** ms | Beats **92.36%**
+> **1** ms | Beats **92.39%**
 
 > ### Memory
-> **53.76** MB | Beats **72.33%**
+> **53.76** MB | Beats **72.39%**
 ```csharp
 public class Solution
 {

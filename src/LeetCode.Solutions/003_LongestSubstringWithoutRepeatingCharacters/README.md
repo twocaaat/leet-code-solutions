@@ -32,6 +32,7 @@ Given a string `s`, find the length of the **longest substring** without duplica
 
 # Solutions:
 ## Solution 1:
+[Here is submission](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/1749256964)
 > ### Runtime
 > **29** ms | Beats **24.34%**
 

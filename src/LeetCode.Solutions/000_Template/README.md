@@ -23,6 +23,7 @@ The function gets `x` and returns `x - 1`.
 
 # Solutions:
 ## Solution 1:
+[Here is submission]()
 > ### Runtime
 > **0** ms | Beats **100%**
 

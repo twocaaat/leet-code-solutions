@@ -31,9 +31,7 @@ Given a string `s`, return the _longest palindromic substring_ in `s`.
 > ### Memory
 > **41.98** MB | Beats **56.69%**
 ```csharp
-public class Solution
-{
-    public class Solution {
+public class Solution {
     public string LongestPalindrome(string s)
     {
         var palindrome = "";
@@ -78,6 +76,5 @@ public class Solution
         
         return palindrome;
     }
-}
 }
 ```

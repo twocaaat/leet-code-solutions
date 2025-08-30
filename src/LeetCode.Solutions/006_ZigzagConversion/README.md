@@ -48,7 +48,7 @@ Write the code that will take a string and make this conversion given a number o
 
 # Solutions:
 ## Solution 1:
-[Here is submission]()
+[Here is submission](https://leetcode.com/problems/zigzag-conversion/submissions/1753798686)
 > ### Runtime
 > **1** ms | Beats **99.47%**
 
